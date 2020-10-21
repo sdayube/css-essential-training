@@ -1,26 +1,65 @@
 /* COLOR PALETTE
-From https://coolors.co/393e41-d3d0cb-788bff-db5a42-cc2936     | greyscale equivalents:
-#393E41 - Onyx (almost black)                                  | #3c3c3c
-#D3D0CB - Timberwolf (washed out white)                        | #d0d0d0
-#788BFF - Cornflower Blue (lavender-like blue)                 | #929292
-#DB5A42 - Fire Opal (strong orange)                            | #7d7d7d
-#CC2936 - Madder lake (vivid blue)                             | #5b5b5b
+From https://coolors.co/393e41-d3d0cb-db5a42-cc2936-788bff-4a8fe7-5c7aff     | greyscale equivalents:
+#393E41 - Onyx (almost black)                                                | #3c3c3c
+#D3D0CB - Timberwolf (washed out white)                                      | #d0d0d0
+#DB5A42 - Fire Opal (strong orange)                                          | #7d7d7d
+#CC2936 - Madder lake (vivid red)                                            | #5b5b5b
+#788BFF - Cornflower Blue (lavender-like blue)                               | #929292
+#4A8FE7 - United Nations Blue (vivid blue)                                   | #848484
+#5C7AFF - Blue Crayola (bit darker blue)                                     | #808080 
 */
 
 
 /* Global Styles
 -------------------------------------------- */
+body {
+  color: #393E41;
+}
 img {
   width: 300px;
+}
+a {
+  color: #DB5A42;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
 }
 
 /* Profile
 -------------------------------------------- */
+header {
+  background: #393E41;
+  color: #D3D0CB;
+}
+
+
+/* Projects
+-------------------------------------------- */
+.projects {
+ background: #D3D0CB;
+}
+.projects .btn {
+  font-weight: bold;
+  background: #cc2937; /*#DB5A42; or #4A8FE7;*/
+  color: #D3D0CB;
+  padding: 6px;
+  border: 2px #a7212c solid;
+  border-radius: 4px;
+}
+.projects .btn:hover {
+  background: #cc2937bf; /*#CC2936; or #5C7AFF*/
+  text-decoration: none;
+  padding: 6px;
+  border: 2px #cc2937 solid;
+}
 
 
 /* Work experience
 -------------------------------------------- */
-
+.work-experience {
+  background: #788BFF;
+}
 
 /* Education
 -------------------------------------------- */
@@ -28,3 +67,14 @@ img {
 
 /* Contact info
 -------------------------------------------- */
+footer {
+  background: #393E41;
+  color: #D3D0CB;
+}
+footer a {
+  color: #D3D0CB;
+  text-decoration: underline;
+}
+footer a:hover {
+  color: #DB5A42;
+}
