@@ -1,11 +1,12 @@
-/* 
-Color pallette from https://coolors.co/393e41-d3d0cb-788bff-db5a42-cc2936 with grey equivalents
-Onyx - 357, 62, 65 #393E41 (almost black) #3c3c3c
-Timberwolf - 211, 208, 203 #D3D0CB (washed out white) #d0d0d0
-Cornflower Blue - 120, 139, 255 #788BFF (lavender-like blue) #929292
-Fire Opal - 219, 90, 66 #DB5A42 (strong orange) #7d7d7d
-Madder lake - 204, 41, 54 #CC2936 (vivid blue) #5b5b5b
+/* COLOR PALETTE
+From https://coolors.co/393e41-d3d0cb-788bff-db5a42-cc2936     | greyscale equivalents:
+#393E41 - Onyx (almost black)                                  | #3c3c3c
+#D3D0CB - Timberwolf (washed out white)                        | #d0d0d0
+#788BFF - Cornflower Blue (lavender-like blue)                 | #929292
+#DB5A42 - Fire Opal (strong orange)                            | #7d7d7d
+#CC2936 - Madder lake (vivid blue)                             | #5b5b5b
 */
+
 
 img {
   width: 300px;
