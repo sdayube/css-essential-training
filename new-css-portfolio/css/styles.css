@@ -31,7 +31,7 @@ h2 {
   margin: 0;
 }
 .content-wrap  {
-  width: 800px;
+  max-width: min(800px,90%);
   margin: 0 auto;
   padding: 60px 0;
 }
