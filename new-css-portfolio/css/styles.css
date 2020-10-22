@@ -14,6 +14,8 @@ From https://coolors.co/393e41-d3d0cb-db5a42-cc2936-788bff-4a8fe7-5c7aff     | g
 -------------------------------------------- */
 body {
   color: #393E41;
+  margin: 0;
+  padding: 0;
 }
 img {
   width: 300px;
@@ -25,9 +27,13 @@ a {
 a:hover {
   text-decoration: underline;
 }
+h2 {
+  margin: 0;
+}
 .content-wrap  {
-  width: 900px;
+  width: 800px;
   margin: 0 auto;
+  padding: 60px 0;
 }
 
 
@@ -51,6 +57,7 @@ header {
   padding: 6px;
   border: 2px #a7212c solid;
   border-radius: 4px;
+  display: inline-block;
 }
 .projects .btn:hover {
   background: #cc2937bf; /*#CC2936; or #5C7AFF*/
