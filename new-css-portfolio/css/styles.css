@@ -9,6 +9,10 @@ From https://coolors.co/393e41-d3d0cb-db5a42-cc2936-788bff-4a8fe7-5c7aff     | g
 #5C7AFF - Blue Crayola (bit darker blue)                                     | #808080 
 */
 
+/* Fonts imported: Source Sans Pro and Montserrat
+-------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
 
 /* Global Styles
 -------------------------------------------- */
@@ -16,6 +20,9 @@ body {
   color: #393E41;
   margin: 0;
   padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  text-align: center;
 }
 img {
   width: 300px;
@@ -43,6 +50,22 @@ header {
   background: #393E41;
   color: #D3D0CB;
 }
+header p,h2 {
+  font-weight: 300;
+}
+header h1 {
+  text-transform: uppercase;
+  margin-block-end: 0.2em;
+  letter-spacing: 0.2em;
+  font-weight: 400;
+}
+header h2 {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 1.2em;
+  padding-bottom: 10px;
+  border-bottom: solid 1px;
+}
 
 
 /* Projects
@@ -50,22 +73,25 @@ header {
 .projects {
  background: #D3D0CB;
 }
+.projects p {
+  font-weight: 500;
+ }
 .projects .btn {
-  font-weight: bold;
+  font-weight: 600;
   background: #cc2937; /*#DB5A42; or #4A8FE7;*/
   color: #D3D0CB;
   padding: 6px;
-  border: 2px #a7212c solid;
+  border: 2px #8C1C25 solid;
   border-radius: 4px;
   display: inline-block;
+  margin-right: 15px;
 }
 .projects .btn:hover {
   background: #cc2937bf; /*#CC2936; or #5C7AFF*/
   text-decoration: none;
   padding: 6px;
-  border: 2px #cc2937 solid;
+  border: 2px #4D0F14 solid;
 }
-
 
 /* Work experience
 -------------------------------------------- */
