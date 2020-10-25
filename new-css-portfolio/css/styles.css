@@ -1,17 +1,18 @@
 /* COLOR PALETTE
-From https://coolors.co/393e41-d3d0cb-db5a42-cc2936-788bff-4a8fe7-5c7aff     | greyscale equivalents:
-#393E41 - Onyx (almost black)                                                | #3c3c3c
-#D3D0CB - Timberwolf (washed out white)                                      | #d0d0d0
-#DB5A42 - Fire Opal (strong orange)                                          | #7d7d7d
-#CC2936 - Madder lake (vivid red)                                            | #5b5b5b
-#788BFF - Cornflower Blue (lavender-like blue)                               | #929292
-#4A8FE7 - United Nations Blue (vivid blue)                                   | #848484
-#5C7AFF - Blue Crayola (bit darker blue)                                     | #808080 
+#393E41 - Onyx (almost black)                     | Complimentary:
+/                                                 | #8C806D (Brown) |#CBD0D4 (White) | #748087 (Blue)
+/                                                 
+#D3D0CB - Timberwolf (washed out white)           | #d0d0d0
+#DB5A42 - Fire Opal (strong orange)               | #7d7d7d
+#CC2936 - Madder lake (vivid red)                 | #5b5b5b
+#788BFF - Cornflower Blue (lavender-like blue)    | #929292
+#4A8FE7 - United Nations Blue (vivid blue)        | #848484
+#5C7AFF - Blue Crayola (bit darker blue)          | #808080 
 */
 
-/* Fonts imported: Source Sans Pro and Montserrat
+/* Fonts imported: Montserrat
 -------------------------------------------- */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
 /* Global Styles
@@ -42,6 +43,9 @@ h2 {
   margin: 0 auto;
   padding: 60px 0;
 }
+p {
+  line-height: 1.5;
+}
 
 
 /* Profile
@@ -71,11 +75,8 @@ header h2 {
 /* Projects
 -------------------------------------------- */
 .projects {
- background: #D3D0CB;
+ background: #CBD0D4;
 }
-.projects p {
-  font-weight: 500;
- }
 .projects .btn {
   font-weight: 600;
   background: #cc2937; /*#DB5A42; or #4A8FE7;*/
@@ -96,7 +97,8 @@ header h2 {
 /* Work experience
 -------------------------------------------- */
 .work-experience {
-  background: #788BFF;
+  background: #748087;
+  color: #CBD1D4;
 }
 
 /* Education
