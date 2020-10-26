@@ -53,6 +53,7 @@ p {
 header {
   background: #393E41;
   color: #D3D0CB;
+  text-shadow: 2px 2px 8px black;
 }
 header p,h2 {
   font-weight: 300;
@@ -76,6 +77,7 @@ header h2 {
 -------------------------------------------- */
 .projects {
  background: #CBD0D4;
+ text-shadow: 2px 2px 8px #393e4157;
 }
 .projects .btn {
   font-weight: 600;
@@ -99,6 +101,7 @@ header h2 {
 .work-experience {
   background: #748087;
   color: #CBD1D4;
+  text-shadow: 3px 3px 8px #25292b;
 }
 
 /* Education
@@ -110,10 +113,19 @@ header h2 {
 footer {
   background: #393E41;
   color: #D3D0CB;
+  height: fit-content;
+}
+footer .content-wrap {
+  padding: 10px;
+}
+footer li {
+  display: inline-block;
+  margin: 0 30px;
 }
 footer a {
   color: #D3D0CB;
   text-decoration: underline;
+  margin-top: 0;
 }
 footer a:hover {
   color: #DB5A42;
