@@ -17,6 +17,14 @@
 
 /* Global Styles
 -------------------------------------------- */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
   color: #393E41;
   margin: 0;
